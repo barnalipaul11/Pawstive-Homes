@@ -1,0 +1,118 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar styles */
+nav {
+    background-color: white; /* White background */
+    color: #333;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+nav .logo {
+    height: 50px;
+    margin-right: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-grow: 1;
+    justify-content: flex-end;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 20px;
+}
+
+nav ul li a:hover {
+    background-color: #f8f9fa;
+    border-radius: 5px;
+}
+
+/* Carousel styles */
+.carousel-inner img {
+    width: 100%;
+    height: 100vh; /* Set height of the carousel to 100% of the viewport height */
+    object-fit: cover; /* Ensure images cover the carousel area */
+}
+
+/* Buttons */
+.buttons {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.button {
+    background-color: #007BFF;
+    color: white;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+    margin: 10px;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #0056b3;
+}
+
+/* Contact Page styles */
+.contact-page {
+    background-image: url('../static/contact-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    
+    padding: 100px 50px;
+    text-align: center;
+    min-height: 100vh;
+}
+
+.contact-page h1, .contact-page p {
+    color: white;
+}
+
+.contact-info {
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+/* Community Page styles */
+.community-page {
+    background-image: url('../static/background.jpg');
+    background-size: cover;
+    background-position: center;
+    
+    padding: 100px 50px;
+    text-align: center;
+    min-height: 100vh;
+}
+
+.community-page h1, .community-page p {
+    color: white;
+}
+
+.community-page .button {
+    background-color: #28a745;
+}
+
+.community-page .button:hover {
+    background-color: #218838;
+}
